@@ -1,6 +1,6 @@
 #!/bin/bash 
 COUNTER=1
-while [ $COUNTER -lt 1000000 ]; do   
+while [ $COUNTER -lt 1000001 ]; do   
    echo $COUNTER
    echo $COUNTER > README.md
    git add README.md
